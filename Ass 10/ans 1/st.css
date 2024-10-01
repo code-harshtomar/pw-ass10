@@ -1,0 +1,62 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(0,2fr);
+    grid-template-rows: (3,250px);
+    gap: 20px;
+    padding: 20px;
+}
+.photo1{
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    background-color: black;
+    background-image: url(./image/download.jpeg);
+    background-repeat: inherit;
+   
+}
+.photo2{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    background-color: black;
+
+}
+.photo3{
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    background-color: black;
+
+}
+.photo4{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:2 ;
+    grid-row-end:4 ;
+    background-color: black;
+
+}
+.photo5{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start: 3;
+    grid-row-end:4 ;
+    background-color: black;
+
+}
+.photo6{
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: black;
+
+}
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
